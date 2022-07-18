@@ -1,4 +1,4 @@
-### chatroom
+### chat
 
 Chat room using node JS and typescript
 
