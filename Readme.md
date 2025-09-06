@@ -44,13 +44,14 @@ A modular full-stack chat system built using modern JavaScript tooling, designed
    package.json "dev" : "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development nodemon ./src/index.ts"
 ```
 
-1. **Clone the repository**
+1. **Clone the repository and install dependency**
    ```bash
    git clone https://github.com/lukerspace/TypescriptChatroom.git
    cd TypescriptChatroom
+   npm install
 
 
-2. **Npm compile to run server**
+2. **Npm compile to run server (development mode)**
    ```bash
    npm run dev
 
