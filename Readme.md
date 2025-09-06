@@ -43,3 +43,17 @@ A modular full-stack chat system built using modern JavaScript tooling, designed
    ```bash
    git clone https://github.com/lukerspace/Chat.git
    cd Chat
+
+
+2. **Npm compile to run server**
+   ```bash
+   npm run dev
+
+3. **Open localhost new browser**
+   ```bash
+   127.0.0.1:3000
+
+
+![Dashboard Preview](src/readme/readme1.png )
+![Dashboard Preview](src/readme/readme2.png )
+

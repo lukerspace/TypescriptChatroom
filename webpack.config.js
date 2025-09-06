@@ -12,9 +12,10 @@ const entries = {
 module.exports = {
   entry: entries,
   mode: process.env.NODE_ENV,
+
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name]/index.[hash].js',
+    filename: "[name].[fullhash].js",
     clean: true,
     publicPath: '/',
   },
@@ -53,17 +54,17 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      filename: '[name]/main.html',
+      filename: 'index.html',   
       chunks: ['main'],
       template: './src/client/pages/main/index.html'
     }),
     new HtmlWebpackPlugin({
-      filename: '[name]/chatRoom.html',
+      filename: 'chatRoom/chatRoom.html',  // dist/chatRoom/chatRoom.html → http://127.0.0.1:3000/chatRoom/chatRoom.html
       chunks: ['chatRoom'],
       template: './src/client/pages/chatRoom/index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: '[name]/index.[hash].css'
+      filename: '[name]/index.[fullhash].css'
     }),
     new CompressionPlugin(),
     new HotModuleReplacementPlugin(),
