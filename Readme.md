@@ -49,16 +49,16 @@ A modular full-stack chat system built using modern JavaScript tooling, designed
    git clone https://github.com/lukerspace/TypescriptChatroom.git
    cd TypescriptChatroom
    npm install
-
+   ```
 
 2. **Npm compile to run server (development mode)**
    ```bash
    npm run dev
-
+   ```
 3. **Open localhost new browser**
    ```bash
    127.0.0.1:3000
-
+   ```
 
 ![Dashboard Preview](src/readme/readme1.png )
 ![Dashboard Preview](src/readme/readme2.png )
