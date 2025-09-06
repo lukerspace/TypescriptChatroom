@@ -38,11 +38,16 @@ A modular full-stack chat system built using modern JavaScript tooling, designed
 
 
 ## 🧪 Setup & Run Locally
+```bash
+   webpack_version 5.39.1
+   Node.js：17+ 
+   package.json "dev" : "cross-env NODE_OPTIONS=--openssl-legacy-provider NODE_ENV=development nodemon ./src/index.ts"
+```
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/lukerspace/Chat.git
-   cd Chat
+   cd TypescriptChatroom
 
 
 2. **Npm compile to run server**
