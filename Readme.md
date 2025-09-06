@@ -46,7 +46,7 @@ A modular full-stack chat system built using modern JavaScript tooling, designed
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/lukerspace/Chat.git
+   git clone https://github.com/lukerspace/TypescriptChatroom.git
    cd TypescriptChatroom
 
 
